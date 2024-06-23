@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>T_M's Website</title></head>
+<body>
+<div style="text-align:left">
+<div style="text-align:right;float:right">
+<div id="datetime" style="color:black"></div>
+<script>
+    function displayDateTime() {
+      const now = new Date();
+      const datetimeString = now.toLocaleString();
+      document.getElementById("datetime").innerText = datetimeString;
+    }
+
+    displayDateTime();
+    setInterval(displayDateTime, 1000);
+  </script>
+</div><h1 style="color:blue">T_M's website</div>
+<hr>
+</body>
+</html>
